@@ -1,0 +1,42 @@
+@media only screen and (max-width:991px)
+{   
+    .test{
+        display: none;
+    }
+    #boot-navbar{
+        position: relative !important;
+        top: 0px;
+        width: 100vw;
+    }
+    .be{
+        position: absolute;
+    }
+    
+    .seperator img{
+        width: 100vw;
+    }
+    #header{
+        position: relative;
+        min-height: 0px;
+    }
+  
+    
+
+    #carouselExampleDark{
+        position: relative;
+        /* top: 56px; */
+        /* width: 100%; */
+    }
+}
+
+@media only screen and (max-width:855px)
+{
+    .noncopy{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .sec{
+        margin: 20px 20px;
+    }
+}
